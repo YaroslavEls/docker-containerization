@@ -10,7 +10,7 @@ RUN CGO_ENABLED=0 go build -o build/fizzbuzz
 
 # Stage 2
 
-FROM scratch
+FROM gcr.io/distroless/static
 
 WORKDIR /app
 
