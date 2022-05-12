@@ -26,3 +26,9 @@ def make_app(settings: Settings) -> FastAPI:
         return 'build/index.html'
 
     return app
+
+# Test comment:
+# Hello World!
+# 123
+# qwe
+# zxc
